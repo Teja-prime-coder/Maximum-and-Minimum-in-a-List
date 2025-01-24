@@ -8,7 +8,8 @@ public class Sample
     {
     public static Integer findMin(List<Integer> list)
     {
-        if (list == null || list.size() == 0) {
+        if (list == null || list.size() == 0) 
+        {
             return Integer.MAX_VALUE;
         }
         List<Integer> sortedList = new ArrayList<>(list);
